@@ -1,0 +1,16 @@
+
+body
+{
+    background-image: url(img/pizza\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1
+{
+    text-align: center;
+    color: #f7ed2f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
