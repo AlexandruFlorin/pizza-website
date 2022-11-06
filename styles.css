@@ -1,7 +1,6 @@
-
 body
 {
-    background-image: url(img/pizza\ background.jpg);
+    background-image: url(img/pizza.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,9 +12,57 @@ h1
     color: #f7ed2f;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    
 }
-button
+h2
 {
-  background-color: rgb(167, 4, 4);
-  background-position: 50px left;
+  text-align: center;
+    color: #be1010;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border:thick grey solid;
+    background-color: rgb(77, 74, 74);
+    border-bottom: #d31212;
+}
+h3
+{
+  text-align: center;
+  color: #be1010;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  border:thick grey solid;
+  background-color: rgb(77, 74, 74);
+  border-bottom: #d31212;
+}
+
+h2
+{
+  width: 150px;
+  height: 40px;
+  background-color: rgb(51, 48, 48);
+  transition: width 2s, height 2s;
+  border-radius: 10px;
+  transition-delay: 0,50s;
+  opacity: 70%;
+
+}
+h3
+{
+  width: 150px;
+  height: 40px;
+  background-color: rgb(51, 48, 48);
+  transition: width 2s, height 2s;
+  border-radius: 10px;
+  transition-delay: 0,50s;
+  opacity: 70%;
+}
+h2:hover 
+{
+  width: 200px;
+  height: 400px;
+}
+h3:hover
+{
+  width: 200px;
+  height: 400px;
 }
