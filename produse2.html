@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Pizza Shark</title>
+        <title>Produse - Pizza Shark</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
     </head>
     <body>
 
-<div class="header">
+
 
 
         <div class="container">
@@ -23,7 +23,7 @@
                 <nav>
                     <ul id="menuitems">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="produse.html">Produse</a></li>
+                        <li><a href="">Produse</a></li>
                         <li><a href="">Despre noi</a></li>
                         <li><a href="">Contact</a></li>
                         <li><a href="">Cont</a></li>
@@ -33,41 +33,30 @@
                 <img src="images/cartlogo.png" width="30px" height="30px">
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
-            <div class="row">
-                <div class="col-2">
-<h1>Cele mai <br>sharktastice pizza</h1>
-<p>Pizza care iti lasa <br>sa curga apa din gura</p>
-<a href="produse.html" class="btn">Vezi produse &#8594</a>
-
-                </div>
-                <div class="col-2">
-                    <img src="images/pizza2.png">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--------poze--------->
-    <div class="categorii">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3"><img src="images/bg1.jpg" ></div>
-                <div class="col-3"><img src="images/bg2.jpg"></div>
-                <div class="col-3"><img src="images/bg3.jpg"></div>
             
-            </div>
         </div>
-        
     </div>
+   
     <!--------produse-->
     <div class="small-container">
-        <h2 class="title">Produse Recomandate</h2>
+        <div class="row row-2">
+            <h2>Toate Produsele</h2>
+            <select>
+                <option>Sortare normala</option>
+                <option>Sortare dupa pret</option>
+                <option>Sortare dupa popularitate</option>
+                <option>Sortare dupa vanzari</option>
+
+            </select>
+    
+        </div>
+        
         <div class="row">
             <div class="col-4">
-                <img src="images/background1.png">
+                <img src="images/horia-varlan.jpg" >
                 <h4>Pizza Vegana</h4>
                 <p>24.99 RON</p>
-                <a href="detalii_produse.html">Detalii produs</a>
+               <a href="detalii_produse.html">Detalii produs</a>
             </div>
             <div class="col-4">
                 <img src="images/background2.png">
@@ -81,6 +70,55 @@
                 <p>21.99 RON</p>
                 <a href="detalii_produse3.html">Detalii produs</a>
             </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pizza3.png">
+                <h4>Pizza Italiana</h4>
+                <p>29.99 RON</p>
+                <a href="detalii_produse4.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <img src="images/pizza4.png">
+                <h4>Pizza Cu Nuci</h4>
+                <p>21.99 RON</p>
+                <a href="detalii_produse5.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <img src="images/pizza5.png">
+                <h4>Pizza Bunica</h4>
+                <p>20.99 RON</p>
+                <a href="detalii_produse6.html">Detalii produs</a>
+            </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pizza6.png">
+                <h4>Pizza Simpla</h4>
+                <p>26.99 RON</p>
+                <a href="detalii_produse7.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <img src="images/pizza7.png">
+                <h4>Pizza Greceasca</h4>
+                <p>23.99 RON</p>
+                <a href="detalii_produse8.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <img src="images/pizza8.png">
+                <h4>Pizza Franta</h4>
+                <p>21.99 RON</p>
+                <a href="detalii_produse9.html">Detalii produs</a>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
     </div>
     <!----footer-->
