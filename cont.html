@@ -36,31 +36,38 @@
             
         </div>
 
-    </div>
-    <div class="small-container single-product">
+
+   <div class="account-page">
+    <div class="container">
         <div class="row">
-            <div class="col-2"></div>
-            <img src="images/pizza4.png" width="100%">
-      
             <div class="col-2">
-                <p>Home / Pizza Cu Nuci</p>
-                <h1>Pizza Cu Nuci</h1>
-                <h4>21.99 RON</h4>
-                <select>
-                    <option>Marime</option>
-                    <option>Mica</option>
-                    <option>Medie</option>
-                    <option>Mare</option>
-                </select>
-                <input type="number" value="1">
-                <a href="" class="btn">Adauga in cos</a>
-                <h3>Detalii produs</h3>
-                <p>Crusta, caramel, mere, nuci</p>
+                <img src="images/pizza2.png" ></img>
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Intra in cont</span>
+                        <span onclick="register()">Creazati un cont</span>
+                        <hr id="Indicator">
+                    </div>
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Numele Contului">
+                        <input type="text" placeholder="Parola">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Ai uitat Parola?</a>
+                    </form>
+                    <form id="RegForm">
+                        <input type="text" placeholder="Numele Contului">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Parola">
+                        <button type="submit" class="btn">Creaza un cont</button>
+                        
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-   
-    <!--------produse-->
+   </div>
     
     <!----footer-->
     <div class="footer">
@@ -105,6 +112,20 @@
             }
         }
     </script>
-    
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator");
+        function register(){
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+        }
+        function login(){
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(0px)";
+        }
+    </script>
     </body>
 </html>
