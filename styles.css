@@ -1,20 +1,92 @@
 body
 {
-    background-image: url(img/pizza\ background.jpg);
+    background-image: url(img/pizza.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1
+.menu__bar
 {
-    text-align: center;
-    color: #f7ed2f;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+  background-color: rgb(52, 160, 42);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0%;
 }
-button
+.logo
 {
-  background-color: rgb(167, 4, 4);
-  background-position: 50px left;
+  color: yellow;
+  font-size: 50px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  
+}
+.logo span
+{
+  color: red;
+}
+.menu__bar ul
+{
+  list-style: none;
+  display: flex;
+}
+.menu__bar ul li
+{
+  padding: 10px 50px;
+}
+.home
+{
+  background-color: rgb(52, 160, 42);
+  color: rgb(252, 255, 58);
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-text-stroke: 1px rgb(255, 0, 0);
+  font-family: chiller;
+  border: none;
+}
+.command
+{
+  background-color: rgb(52, 160, 42);
+  color: rgb(252, 255, 58);
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-text-stroke: 1px rgb(255, 0, 0);
+  font-family: chiller;
+  border: none;
+}
+.cart
+{
+  background-color: rgb(52, 160, 42);
+  color: rgb(252, 255, 58);
+  text-decoration: none;
+  font-size: 50px;
+  -webkit-text-stroke: 1px rgb(255, 0, 0);
+  font-family: chiller;
+  border: none;
+}
+.home:hover
+{
+  color:rgb(255, 0, 0);
+  background-color:rgb(41, 128, 34);
+  border-radius: 5px;
+  -webkit-text-stroke: 1px rgb(252, 255, 58);
+  transition: 500ms;
+}
+.command:hover
+{
+  color:rgb(255, 0, 0);
+  background-color:rgb(44, 133, 36);
+  border-radius: 5px;
+  -webkit-text-stroke: 1px rgb(252, 255, 58);
+  transition: 500ms;
+}
+.cart:hover
+{
+  color:rgb(255, 0, 0);
+  background-color:rgb(44, 133, 36);
+  border-radius: 5px;
+  -webkit-text-stroke: 1px rgb(252, 255, 58);
+  transition: 500ms;
 }
