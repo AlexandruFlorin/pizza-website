@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Produse - Pizza Shark</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"></a><img src="images/logo_size.jpg" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produse.html">Produse</a></li>
+                        <li><a href="despre_noi.html">Despre noi</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cont.html">Cont</a></li>
+    
+                    </ul>
+                </nav>
+                <a href="index2.html"><img src="images/cartlogo.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+    </div>
+   
+    <!--------produse-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Toate Produsele</h2>
+            <select>
+                <option>Sortare normala</option>
+                <option>Sortare dupa pret</option>
+                <option>Sortare dupa popularitate</option>
+                <option>Sortare dupa vanzari</option>
+
+            </select>
+    
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <a href="detalii_produse.html"><img src="images/background1.png"></img></a>
+                <h4>Pizza Vegana</h4>
+                <p>24.99 RON</p>
+               <a href="detalii_produse.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse2.html"><img src="images/background2.png"></img></a>
+                <h4>Pizza De Casa</h4>
+                <p>27.99 RON</p>
+                <a href="detalii_produse2.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse3.html"><img src="images/background3.png"></img></a>
+                <h4>Pizza Salami</h4>
+                <p>21.99 RON</p>
+                <a href="detalii_produse3.html">Detalii produs</a>
+            </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-4">
+                <a href="detalii_produse4.html"><img src="images/pizza3.png"></img></a>
+                <h4>Pizza Italiana</h4>
+                <p>29.99 RON</p>
+                <a href="detalii_produse4.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse5.html"><img src="images/pizza4.png"></img></a>
+                <h4>Pizza Cu Nuci</h4>
+                <p>21.99 RON</p>
+                <a href="detalii_produse5.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse6.html"><img src="images/pizza5.png"></img></a>
+                <h4>Pizza Bunica</h4>
+                <p>20.99 RON</p>
+                <a href="detalii_produse6.html">Detalii produs</a>
+            </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-4">
+                <a href="detalii_produse7.html"><img src="images/pizza6.png"></img></a>
+                <h4>Pizza Simpla</h4>
+                <p>26.99 RON</p>
+                <a href="detalii_produse7.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse8.html"><img src="images/pizza7.png"></img></a>
+                <h4>Pizza Greceasca</h4>
+                <p>23.99 RON</p>
+                <a href="detalii_produse8.html">Detalii produs</a>
+            </div>
+            <div class="col-4">
+                <a href="detalii_produse9.html"><img src="images/pizza8.png"></img></a>
+                <h4>Pizza Franta</h4>
+                <p>21.99 RON</p>
+                <a href="detalii_produse9.html">Detalii produs</a>
+            </div>
+        </div>
+        <div class="page-btn">
+           
+        </div>
+    </div>
+    <!----footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Instaleaza aplicatia noastra</h3>
+                    <p>Pentru Android si Ios</p>
+                    <div class="app-logo">
+                        <img src="images/swync-download-android-ios.png">
+                    </div>
+
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo_size_invert.jpg" alt="">
+                    
+
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Pizza Shark</p>
+        </div>
+    </div>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+    </body>
+</html>

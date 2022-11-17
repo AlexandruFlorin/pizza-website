@@ -1,0 +1,1 @@
+login.alert("A intervenit o eroare")
