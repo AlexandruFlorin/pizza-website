@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Produse - Pizza Shark</title>
+        <title>Cont - Pizza Shark</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="images/logo_size.jpg" width="125px">
+                    <a href="index.html"><img src="images/logo_size.jpg" width="125px"></a>
                 </div>
                 <nav>
                     <ul id="menuitems">
@@ -30,12 +30,11 @@
     
                     </ul>
                 </nav>
-                <img src="images/cartlogo.png" width="30px" height="30px">
+                <a href="cart.html"><img src="images/cartlogo.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             
         </div>
-
 
    <div class="account-page">
     <div class="container">
@@ -53,21 +52,37 @@
                     <form id="LoginForm">
                         <input type="text" placeholder="Numele Contului">
                         <input type="text" placeholder="Parola">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Ai uitat Parola?</a>
+                        <button type="submit" class="btn" onclick="myFunction()">Login</button>
+
+<script>
+function myFunction() {
+  alert("Datele introduse sunt incorecte");
+}
+</script>
+
+                        <a href="forgot_password.html">Ai uitat Parola?</a>
                     </form>
                     <form id="RegForm">
                         <input type="text" placeholder="Numele Contului">
                         <input type="email" placeholder="Email">
                         <input type="text" placeholder="Parola">
-                        <button type="submit" class="btn">Creaza un cont</button>
-                        
+                        <button type="submit" class="btn" onclick="myFunction2()">Creati un cont</button>
+
+<script>
+function myFunction2() {
+  alert("A aparut o eroare in crearea contului dvs., va rugam sa incercati mai tarziu!");
+}
+</script>
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
    </div>
+   <script>
+   
+   </script>
     
     <!----footer-->
     <div class="footer">
@@ -127,5 +142,6 @@
             Indicator.style.transform = "translateX(0px)";
         }
     </script>
+
     </body>
 </html>
